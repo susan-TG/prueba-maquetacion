@@ -2332,8 +2332,9 @@ body h1, body p {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 600px; }
+  height: 640px; }
   #titulo .logo-box {
+    margin: 0 auto;
     padding-top: 120px; }
 
 #espacio {
@@ -2420,5 +2421,24 @@ body h1, body p {
   background-color: #464343;
   color: #6E6C6C;
   height: 60px; }
+
+/*estilo desktop*/
+@media screen and (min-width: 768px) {
+  .logo-box {
+    padding-top: 0px; }
+
+  #titulo, #preguntas-sobre-el-te {
+    height: 768px; }
+
+  #tipos-de-te h5 {
+    margin-left: 15px;
+    margin-right: 15px; }
+
+  #cinco-fotos img {
+    width: 100%;
+    height: auto; }
+
+  #preguntas-sobre-el-te h1 {
+    padding-top: 20%; } }
 
 /*# sourceMappingURL=main.css.map */
