@@ -13,7 +13,7 @@ body {
 	background-size: cover;
 	background-position: center; 
 	width: 100%;
-	height: 640px;
+	height: 100%;
 	.logo-box {
 		margin: 0 auto;
 		padding-top: 120px;
@@ -49,7 +49,7 @@ body {
 	background-size: cover;
 	background-position: center; 
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	h1, h5 {
 		color: white;
 		text-align: justify;
@@ -159,6 +159,24 @@ body {
 	#preguntas-sobre-el-te {
 		h1 {
 			padding-top: 20%;
+		}
+	}
+	.campos  {
+		background-image: url("../img/parallax-4.jpg"); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center; 
+		width: 100%;
+		height: 100%;
+		h1 {
+			color: white;
+			padding-top: 300px;
+			padding-bottom: 300px;
+		}
+	}
+	#carrousel {
+		i {
+			color: white;
 		}
 	}
 }
