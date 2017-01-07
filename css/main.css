@@ -2382,7 +2382,7 @@
   #preguntas-sobre-el-te h1 {
     color: white;
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     text-align: left; }
   #preguntas-sobre-el-te img {
     padding-top: 50px; }
@@ -2403,11 +2403,8 @@
 #cuanto-te-echar h1, #cuanto-te-echar h5, #cuanto-te-echar ul, #cuantos-recomendados h1, #cuantos-recomendados h5, #cuantos-recomendados ul {
   text-align: center; }
 
-#debo-hervir-agua {
-  padding-top: 50px;
-  padding-bottom: 100px; }
-  #debo-hervir-agua h1, #debo-hervir-agua h5, #debo-hervir-agua ul {
-    text-align: center; }
+#debo-hervir-agua h1, #debo-hervir-agua h5, #debo-hervir-agua ul {
+  text-align: center; }
 
 #cuanto-te-echar, #cuantos-recomendados, #debo-hervir-agua {
   margin-left: 40px;
@@ -2438,9 +2435,21 @@
   #titulo, #preguntas-sobre-el-te {
     height: 768px; }
 
+  #preguntas-sobre-el-te h1 {
+    font-size: 5em;
+    text-align: left;
+    padding-left: 30%; }
+
+  #nuestra-pasion h1 {
+    font-size: 6em; }
+  #nuestra-pasion h5 {
+    font-size: 2em; }
+
   #tipos-de-te h5 {
     margin-left: 15px;
     margin-right: 15px; }
+  #tipos-de-te h1 {
+    font-size: 3.5em; }
 
   #cinco-fotos img {
     width: 100%;
@@ -2448,13 +2457,6 @@
 
   #preguntas-sobre-el-te h1 {
     padding-top: 20%; }
-
-  #cuantos-recomendados .fondo-red {
-    background-color: #F87979;
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-bottom: 0; }
 
   #cuanto-te-echar .fondo-beige {
     background-color: #F5E158;
@@ -2470,6 +2472,20 @@
     padding-bottom: 10%;
     margin-bottom: 0; }
 
+  #cuantos-recomendados .fondo-red {
+    background-color: #F87979;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 0; }
+
+  #debo-hervir-agua h1, #debo-hervir-agua h5, #debo-hervir-agua ul, #cuantos-recomendados h1, #cuantos-recomendados h5, #cuantos-recomendados ul, #cuanto-te-echar h1, #cuanto-te-echar h5, #cuanto-te-echar ul {
+    padding-left: 20%;
+    padding-right: 20%; }
+  #debo-hervir-agua h1, #cuantos-recomendados h1, #cuanto-te-echar h1 {
+    padding-top: 10%;
+    padding-bottom: 0; }
+
   .espacio, .espacio-red, .espacio-beige {
     display: none; }
 
@@ -2484,7 +2500,8 @@
       font-size: 5em;
       color: white;
       padding-top: 300px;
-      padding-bottom: 300px; }
+      padding-bottom: 300px;
+      text-align: center; }
 
   #carrousel i {
     color: white; }

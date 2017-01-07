@@ -73,7 +73,7 @@
 		h1 {
 			color: white;
 			padding-top: 60px;
-			padding-bottom: 300px;
+			padding-bottom: 200px;
 			text-align: left;
 			}
 
@@ -110,8 +110,7 @@
 	
 }
 #debo-hervir-agua {
-	padding-top: 50px;
-	padding-bottom: 100px;
+	
 	h1, h5, ul {
 		text-align: center;
 	}
@@ -120,8 +119,6 @@
 	margin-left: 40px;
 	margin-right: 40px;
 }
-
-
 
 #amamos-el-te {
 	h3, p, {
@@ -159,10 +156,34 @@
 	#titulo, #preguntas-sobre-el-te {
 		height: 768px;
 	}
-	#tipos-de-te h5 {
-		margin-left: 15px;
-		margin-right: 15px;
+
+	#preguntas-sobre-el-te {
+		h1 {
+			font-size: 5em;
+			text-align: left;
+			padding-left: 30%;
+		}
 	}
+
+	#nuestra-pasion {
+		h1 {
+			font-size:6em;
+		}
+		h5 {
+			font-size:2em;
+		}
+	}
+	#tipos-de-te {
+		 h5 {
+		 	margin-left: 15px;
+			margin-right: 15px;
+		 }
+		 h1 {
+		 	font-size: 3.5em;
+		 }
+		
+	}
+
 	#cinco-fotos {
 		img {
 			width: 100%;
@@ -175,16 +196,6 @@
 		}
 	}
 
-	#cuantos-recomendados {
-		.fondo-red {
-			background-color: #F87979;
-			text-align: center;
-			padding-top: 10%;
-			padding-bottom:10%;
-			margin-bottom: 0;
-
-		}
-	}
 	#cuanto-te-echar {
 
 		.fondo-beige {
@@ -205,9 +216,35 @@
 			margin-bottom: 0;
 		}
 	}
+
+	#cuantos-recomendados {
+
+		.fondo-red {
+			background-color: #F87979;
+			text-align: center;
+			padding-top: 10%;
+			padding-bottom:10%;
+			margin-bottom: 0;
+
+		}
+	}
+
+	#debo-hervir-agua, #cuantos-recomendados, #cuanto-te-echar {
+
+		h1, h5, ul {
+			padding-left: 20%;
+			padding-right: 20%;	
+		}
+		h1 {
+			padding-top: 10%;
+			padding-bottom: 0;
+		}
+	}
+
 	.espacio, .espacio-red, .espacio-beige {
 		display: none
 	}
+
 	.campos  {
 		background-image: url("../img/parallax-4.jpg"); 
 		background-repeat: no-repeat;
@@ -220,6 +257,7 @@
 			color: white;
 			padding-top: 300px;
 			padding-bottom: 300px;
+			text-align: center;
 		}
 	}
 
@@ -245,6 +283,7 @@
 		img {
 			padding-top: 20px;
 		}
-	}
 }
 
+
+}
