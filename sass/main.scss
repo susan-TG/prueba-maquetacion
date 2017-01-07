@@ -1,12 +1,6 @@
 @import 'plugins/fontawesome/font-awesome';
 
 
-body {
-	h1, p{
-		text-align: center;
-	}
-
-}
 #titulo {
 	background-image: url("../img/parallax-1.jpg");
 	background-repeat: no-repeat;
@@ -17,6 +11,7 @@ body {
 	.logo-box {
 		margin: 0 auto;
 		padding-top: 120px;
+		padding-bottom: 100px;
 	}
 
 }
@@ -38,58 +33,71 @@ body {
 
 #nuestra-pasion {
 	background-image: url("../img/parallax-3.jpg");
-	
-}
-#preguntas-sobre-el-te {
-	background-image: url("../img/parallax-2.jpg");
-	
-}
-#preguntas-sobre-el-te, #nuestra-pasion {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; 
 	width: 100%;
-	height: 100%;
-	h1, h5 {
-		color: white;
-		text-align: justify;
-		margin-right: 40px;
-		margin-left: 40px;
+	color: white;
 
-	}
-	h1 {
-		padding-top:80px;
-	}
-	img {
-		padding-top:50px;
-	}
+		h1 {
+			color: white;
+			padding-top: 60px;
+			text-align: left;
+		}
+
+		h5 {
+			padding-top: 20px;
+			padding-bottom: 200px;
+			text-align: left;
+			padding-left: 0;
+		}
+		
+		img {
+			padding-top:50px;
+		}
 
 }
+
+#preguntas-sobre-el-te {
+	background-image: url("../img/parallax-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	color: white;
+
+		h1 {
+			color: white;
+			padding-top: 60px;
+			padding-bottom: 300px;
+			text-align: left;
+			}
+
+		img {
+			padding-top:50px;
+		}
+
+}
+	
 
 #tipos-de-te {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
 	h1{
 		color: #F87979;
-	}
-}
-.texto-nuestra-pasion {
-	text-align: center;
-
-	h5 {
-		margin-left: 40px;
-		margin-right: 40px;
 	}
 }
 
 
 #cuanto-te-echar, #cuantos-recomendados {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	h1 {
+	
+	h1{
 		padding-bottom:50px;
 	}
-	h5 {
+	h5{
 		padding-bottom: 100px;
 	}
 	h1, h5, ul {
@@ -159,6 +167,19 @@ body {
 	#preguntas-sobre-el-te {
 		h1 {
 			padding-top: 20%;
+		}
+	}
+
+	#cuantos-recomendados {
+		width: 100%;
+	
+		.fondo-red {
+			background-color: #F87979;
+			text-align: center;
+			padding-top: 10%;
+			padding-bottom:10%;
+			margin-bottom: 0;
+
 		}
 	}
 	.campos  {

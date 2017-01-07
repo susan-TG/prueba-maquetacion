@@ -2323,9 +2323,6 @@
   overflow: visible;
   clip: auto; }
 
-body h1, body p {
-  text-align: center; }
-
 #titulo {
   background-image: url("../img/parallax-1.jpg");
   background-repeat: no-repeat;
@@ -2335,7 +2332,8 @@ body h1, body p {
   height: 100%; }
   #titulo .logo-box {
     margin: 0 auto;
-    padding-top: 120px; }
+    padding-top: 120px;
+    padding-bottom: 100px; }
 
 #espacio {
   background-color: #1ECD0C;
@@ -2353,48 +2351,54 @@ body h1, body p {
   height: 50px; }
 
 #nuestra-pasion {
-  background-image: url("../img/parallax-3.jpg"); }
-
-#preguntas-sobre-el-te {
-  background-image: url("../img/parallax-2.jpg"); }
-
-#preguntas-sobre-el-te, #nuestra-pasion {
+  background-image: url("../img/parallax-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%; }
-  #preguntas-sobre-el-te h1, #preguntas-sobre-el-te h5, #nuestra-pasion h1, #nuestra-pasion h5 {
+  color: white; }
+  #nuestra-pasion h1 {
     color: white;
-    text-align: justify;
-    margin-right: 40px;
-    margin-left: 40px; }
-  #preguntas-sobre-el-te h1, #nuestra-pasion h1 {
-    padding-top: 80px; }
-  #preguntas-sobre-el-te img, #nuestra-pasion img {
+    padding-top: 60px;
+    text-align: left; }
+  #nuestra-pasion h5 {
+    padding-top: 20px;
+    padding-bottom: 200px;
+    text-align: left;
+    padding-left: 0; }
+  #nuestra-pasion img {
+    padding-top: 50px; }
+
+#preguntas-sobre-el-te {
+  background-image: url("../img/parallax-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: white; }
+  #preguntas-sobre-el-te h1 {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 300px;
+    text-align: left; }
+  #preguntas-sobre-el-te img {
     padding-top: 50px; }
 
 #tipos-de-te {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px; }
   #tipos-de-te h1 {
     color: #F87979; }
 
-.texto-nuestra-pasion {
-  text-align: center; }
-  .texto-nuestra-pasion h5 {
-    margin-left: 40px;
-    margin-right: 40px; }
-
-#cuanto-te-echar, #cuantos-recomendados {
-  padding-top: 50px;
+#cuanto-te-echar h1, #cuantos-recomendados h1 {
   padding-bottom: 50px; }
-  #cuanto-te-echar h1, #cuantos-recomendados h1 {
-    padding-bottom: 50px; }
-  #cuanto-te-echar h5, #cuantos-recomendados h5 {
-    padding-bottom: 100px; }
-  #cuanto-te-echar h1, #cuanto-te-echar h5, #cuanto-te-echar ul, #cuantos-recomendados h1, #cuantos-recomendados h5, #cuantos-recomendados ul {
-    text-align: center; }
+#cuanto-te-echar h5, #cuantos-recomendados h5 {
+  padding-bottom: 100px; }
+#cuanto-te-echar h1, #cuanto-te-echar h5, #cuanto-te-echar ul, #cuantos-recomendados h1, #cuantos-recomendados h5, #cuantos-recomendados ul {
+  text-align: center; }
 
 #debo-hervir-agua {
   padding-top: 50px;
@@ -2441,6 +2445,15 @@ body h1, body p {
 
   #preguntas-sobre-el-te h1 {
     padding-top: 20%; }
+
+  #cuantos-recomendados {
+    width: 100%; }
+    #cuantos-recomendados .fondo-red {
+      background-color: #F87979;
+      text-align: center;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      margin-bottom: 0; }
 
   .campos {
     background-image: url("../img/parallax-4.jpg");
