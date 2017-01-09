@@ -7,22 +7,42 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
   <link rel="stylesheet"  type="text/css" href="css/superslides.css">
   <link rel="stylesheet"  type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
-  <link rel="stylesheet" type="text/css" href="css/app.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+  <!--navbar-->
+  <div class="nav-content hideNav hidden">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#" class="item-anchor">HOME</a>
+      </li>
+      <li class="nav-item"><a href="#" class="item-anchor">
+        NUESTRA PASIÓN</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="item-anchor">PREGUNTAS</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="item-anchor">LOS CAMPOS</a>
+      </li>
+    </ul>
+  </div>
+  
+  <!--portada titulo-->
   <section id="titulo">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+            <!--boton-menu-->
+            <div class="nav">
+            <button class="btn-nav">
+              <span class="icon-bar top"></span>
+              <span class="icon-bar middle"></span>
+              <span class="icon-bar bottom"></span>
+            </button>
+          </div>
           <a class="navbar-brand" href="#"><img class="img-responsive" src="img/trxto-hagamos-black.png" alt="responsive image"></a>
         </div>
       </div>
@@ -59,7 +79,7 @@
       </div>
     </div>
   </section>
-
+  <!--5 tipos de te-->
   <section id="tipos-de-te"> 
     <div class="container">
       <div class="col-xs-12 col-md-2 col-md-offset-1 texto-nuestra-pasion">
@@ -90,16 +110,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="hidden-xs col-md-6">
+          <p>¿Todas las infusiones son té?</p>
           <img class="img-responsive" src="img/min-video-1-2.jpg" alt="Responsive image">
         </div>
          <div class="hidden-xs col-md-6">
           <div class="hidden-xs col-md-6">
+            <p>¿Tiene la misma cafeína que el café?</p>
             <img class="img-responsive"src="img/min-video-3.jpg" alt="Responsive image">
           </div>
           <div class="hidden-xs col-md-6">
+          <p>¿Cuál es la diferencia entre las bolsitas de té y el té a granel en pirámides?</p>
             <img class="img-responsive"src="img/min-video-5.jpg" alt="Responsive image">
           </div>
           <div class="hidden-xs col-md-12">
+            <p>¿Se pueden mezclar distintos tipos de té para hacer una infusión?</p>
             <img class="img-responsive"src="img/min-video-6.jpg" alt="Responsive image">
           </div>
         </div>
@@ -126,7 +150,7 @@
   <!--mobil espacio green-->
   <section class="espacio"></section>
   
-  <!--textos-centrados-->
+  <!--textos-centrados con foto-->
   <section id="cuanto-te-echar">
     <div class="container-fluid">
       <div class="row">
@@ -135,7 +159,7 @@
             <h5>Lo ideal son 3 gramos por taza. Para calcular cuánto son tres gramos nosotros utilizamos y vendemos una cuchara medidora, no obstante, si no se tiene basta con utilizar una cuchara de postre. Es importante saber que la cantidad de hebras que hechamos solo va a influir en la intensidad del sabor del té y teniendo en cuenta que hay personas que les gusta el té más intenso que a otras, se puede modificar la cantidad que se hecha sin problemas. También debemos tener en cuenta que el Té Blanco tiene mucho más volúmen que el resto de tés y por tanto, necesitaremos más cantidad para lograr los 3 gramos recomendados.</h5>
         </div>
         <div class="hidden-xs col-md-6 fondo-beige">
-          <img class="img-responsive" src="img/icon-1.png" alt="responsive image">
+          <img src="img/icon-1.png" alt="">
         </div>
       </div> 
   </section>
@@ -146,7 +170,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="hidden-xs col-xs-12 col-md-6  fondo-green">
-          <img class="img-responsive" src="img/icon-2.png" alt="responsive image">
+          <img src="img/icon-2.png" alt="">
         </div>
         <div class="col-xs-12 col-md-6">
             <h1>¿Debo hervir el agua para echar el té?</h1>
@@ -246,8 +270,7 @@
   <!-- Scripts -->
   <script src="js/jquery.js"></script>
   <script src="js/jquery.superslides.js"></script>
-  <script>
-    $('#slides').superslides()
-  </script>
+  <script src="js/nav.js" ></script>
+
 </body>
 </html>
